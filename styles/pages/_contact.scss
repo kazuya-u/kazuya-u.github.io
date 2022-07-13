@@ -1,0 +1,48 @@
+#contact {
+  width: calc(100% - 148px);
+  max-width: 400px;
+  margin: 0 auto;
+  .contact_text {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 50px;
+  }
+  address {
+    display: none;
+  }
+  .form {
+    .item {
+      font-size: 16px;
+      font-weight: 600;
+      text-align: left;
+      padding-bottom: 24px;
+    }
+    input {
+      width: 100%;
+      margin: 0 auto 44px;
+      font-size: 20px;
+      padding: 10px 0;
+      border: none;
+      text-align: left;
+    }
+    textarea {
+      border: none;
+      width: 100%;
+      font-size: 20px;
+      text-align: left;
+      margin: 0 auto 44px;
+      padding: 0;
+    }
+  }
+  button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    font-size: 20px;
+    font-family: inherit;
+    width: 100%;
+    padding: 10px;
+    background: $subColor;
+  }
+}

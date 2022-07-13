@@ -4,12 +4,255 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/styles.css">
-  <title>梅木和弥</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+  <title>kazuya umeki-portforio</title>
+  
 </head>
+
 <body>
-  <h1>梅木和弥</h1>
-  <p>webエンジニアです。</p>
-  <p>React勉強中</p>
+  
+  <main>
+    <div class="flexmainbar">
+      <div id="hero">
+        <h1 class="topName">
+          Kazuya Umeki
+        </h1>
+        <div id="open">
+          Introduction
+        </div>
+      </div>
+
+      <div id="works">
+        <h1 class="subTitle">
+          作品集
+        </h1>
+        <!-- <div class="categoryGroup">
+          <ul class="link">
+            <li class="active" data-filter="all">
+              すべて
+            </li>
+            <li data-filter="html">HTML</li>
+            <li data-filter="css">CSS</li>
+            <li data-filter="javascript">JavaScript</li>
+            <li data-filter="wordpress">WordPress</li>
+            <li data-filter="react">React.js</li>
+          </ul>
+        </div> -->
+        <ul class="workItem">
+          <li class="article" data-category="html css javascript">
+            <a href="http://kazu-u.jp" class="workImg">
+              <img src="img/img01.png" alt="">
+            </a>
+            <h2>マイポートフォリオ</h2>
+            <p>制作範囲：デザインからサイトマップまで</p>
+            <p class="lang">XD / HTML / CSS / JavaScript / WordPress</p>
+          </li>
+          <li class="article" data-category="html css javascript">
+            <a href="http://portfolio-visions.jp/" class="workImg">
+              <img src="img/img02.png" alt="">
+            </a>
+            <h2>visions</h2>
+            <p>いただいかデザインカンプをコーディング。<a href="https://twitter.com/m_design88">Minamiさん</a>より。</p>
+            <p class="lang">HTML / CSS / JavaScript / jQuary</p>
+            <p>BASIC認証 ID:user Pass:0521</p>
+          </li>
+          <li class="article" data-category="react css javascript">
+            <a href="#" class="workImg">
+              <img src="img/img03.png" alt="">
+            </a>
+            <h2>サイドバー</h2>
+            <p>React.jsによるサイドバー制作</p>
+            <p class="lang">React.js / JavaScript / CSS</p>
+          </li>
+        </ul>
+      </div>
+
+      <div id="skills">
+        <h1 class="subTitle">
+          スキル
+        </h1>
+        <ul>
+          <li>
+            <p>言語</p>
+            <div class="item">
+              <div><i class="bi bi-filetype-html"></i><span>HTML</span></div>
+              <div><i class="bi bi-filetype-css"></i><span>CSS</span></div>
+              <div><i class="bi bi-filetype-js"></i><span>JavaScript</span></div>
+              <div><i class="bi bi-filetype-php"></i><span>PHP</span></div>
+            </div>
+          </li>
+          <li>
+            <p>Framework</p>
+            <div class="item">
+              <div><i class="bi bi-wordpress"></i><span>WordPress</span></div>
+              <div><i class="bi bi-filetype-jsx"></i><span>React.js</span></div>
+              <div><i class="bi bi-filetype-js"></i><span>jQuary</span></div>
+            </div>
+          </li>
+          <li>
+            <p>Tools</p>
+            <div class="item">
+              <div><i class="bi bi-file-earmark-pdf"></i><span>AdobeXD</span></div>
+              <div><i class="bi bi-brush"></i><span>Figma</span></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div id="contact">
+        <h1 class="subTitle">
+          お問い合わせ
+        </h1>
+        <div class="formFlex">
+          <div class="container">
+            <p class="contact_text">
+              お仕事、ご相談お待ちしております
+            </p>
+            <!-- <address>
+              <p>Name : 梅木和弥</p>
+              <p>Email : kazuyaumeki1115@gmail.com</p>
+              <p>Twitter : <a href="">@solt_jpkz</a></p>
+            </address> -->
+          </div>
+          <div class="form">
+            <div class="item">Name</div>
+              <input type="text">
+              <div class="item">Email</div>
+              <input type="text">
+              <div class="item">Content</div>
+              <textarea name="" id="" cols="30" rows="4"></textarea>
+            <button>Submit</button>
+          </div>
+        </div>
+      </div>
+    
+      <footer>
+        <p>Thank you for watching...</p>
+        <small>umeki kazuya</small>
+      </footer>
+    </div>
+    <div id="sidebar">
+      <!-- <div id="close">
+        <i class="bi bi-x"></i>
+      </div> -->
+      <ul>
+        <li>
+          <a href="index.html">
+            <div class="cateIcon"><i class="bi bi-house-door"></i></div>
+            <div class="navIcon">ホーム</div>
+          </a>
+        </li>
+        <li>
+          <a href="#works">
+            <div class="cateIcon"><i class="bi bi-folder-check"></i></div>
+            <div class="navIcon">作品集</div>
+          </a>
+        </li>
+        <li>
+          <a href="#skills">
+            <div class="cateIcon"><i class="bi bi-wrench"></i></div>
+            <div class="navIcon">スキル</div>
+          </a>
+        </li>
+        <li>
+          <a href="#"><div class="cateIcon"><i class="bi bi-person-fill"></i></div><div class="navIcon">私</div></a></li>
+        <li>
+          <a href="https://github.com/kazuya-u">
+            <div class="cateIcon">
+              <i class="bi bi-github"></i>
+            </div>
+            <div class="navIcon">Git-hub</div>
+          </a>
+        </li>
+        <li>
+          <a href="#contact">
+            <div class="cateIcon">
+              <i class="bi bi-envelope"></i>
+            </div>
+            <div class="navIcon">お問い合わせ</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="hamburger">
+  <div id="close">
+    <i class="bi bi-x"></i>
+  </div>
+  <ul>
+
+    <li>
+      <a href="index.html">
+        <div class="cateIcon"><i class="bi bi-house-door"></i></div>
+        <div class="navIcon">ホーム</div>
+      </a>
+    </li>
+
+    <li>
+      <a href="#works">
+        <div class="cateIcon"><i class="bi bi-folder-check"></i></div>
+        <div class="navIcon">作品集</div>
+      </a>
+    </li>
+    <li>
+      <a href="#skills">
+        <div class="cateIcon"><i class="bi bi-wrench"></i></div>
+        <div class="navIcon">スキル</div>
+      </a>
+    </li>
+    <li>
+      <a href="#"><div class="cateIcon"><i class="bi bi-person-fill"></i></div><div class="navIcon">私</div></a>
+    </li>
+    <li>
+      <a href="https://github.com/kazuya-u">
+        <div class="cateIcon">
+          <i class="bi bi-github"></i>
+        </div>
+        <div class="navIcon">Git-hub</div>
+      </a>
+    </li>
+    <li>
+      <a href="#contact">
+        <div class="cateIcon">
+          <i class="bi bi-envelope"></i>
+        </div>
+        <div class="navIcon">お問い合わせ</div>
+      </a>
+    </li>
+  </ul>
+
+  </div>
+
+
+  <div id="profileOpen">
+    <i class="bi bi-person"></i>
+  </div>
+
+  <div id="menuOpen">
+    <i class="bi bi-list"></i>
+  </div>
+
+
+  <div id="profile">
+    <h2 class="introduction">Introduction</h2>
+    <dl>
+      <dt>Name</dt>
+      <dd>Kazuya Umeki</dd>
+      <dt>Birthday</dt>
+      <dd>Novembar 15th , 2000</dd>
+      <dt>Address</dt>
+      <dd>Osaka , Japan
+      </dd>
+      <dt>From</dt>
+      <dd>Fukuoka , Japan</dd>
+      <dt>Like</dt>
+      <dd>Mr.Children , Pokemon</dd>
+    </dl>
+  </div>
+
+<script src="js/main.js"></script>
 </body>
 </html>
